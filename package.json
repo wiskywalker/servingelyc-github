@@ -1,0 +1,15 @@
+{
+  "name": "servingel.net",
+  "description": "servingel.net",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "www.servingel.net/",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "author": "Will Aleman",
+  "licence": "ISC"
+}
