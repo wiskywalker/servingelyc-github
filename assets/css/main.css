@@ -2546,11 +2546,19 @@ input, select, textarea {
 			top: 0.25em;
 		}
 
-		.image.left, .image.right {
+		.image.center {
+			width:200px;
+            height:200px;
+            position: relative;
+            top: 50%;
+            left: 40%;
+		}
+
+		.image.left, .image.right, .image.center {
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
+			.image.left img, .image.right img, .image.center {
 				width: 100%;
 			}
 
